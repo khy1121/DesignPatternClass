@@ -6,14 +6,15 @@ public class Main {
 
         cafe.Complete();
         cafe.Making();
-        cafe.order("카푸치노");
+
+        cafe.order();
         cafe.Ordered();
         cafe.Making();
         cafe.Complete();
+
         System.out.println();
 
-        cafe.Ordered();
-        cafe.order("아메리카노");
+        cafe.order();
         cafe.Ordered();
         cafe.Making();
         cafe.Complete();
